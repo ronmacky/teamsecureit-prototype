@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+   font-family: 'Josefin Sans', sans-serif;
+}
+
+body{
+  background: url("binary.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 350px;
+}
+
+.checkout_wrapper{
+  width: 500px;
+  height: 350px;
+  display: flex;
+}
+
+.checkout_wrapper .product_info{
+  width: 45%;
+  background: #e85c4d;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  position: relative;
+}
+
+.checkout_wrapper .product_info img{
+  width: 240px;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+
+.checkout_wrapper .checkout_form{
+  width: 55%;
+  background: #fff;
+  padding: 50px 30px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.checkout_wrapper .product_info .content{
+  text-align: center;
+  margin-top: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.checkout_wrapper .product_info .content h3{
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 3px;
+}
+
+.checkout_wrapper .product_info .content p{
+  margin-top: 10px;
+  font-size:14px;
+}
+
+.checkout_form p{
+  margin-bottom: 25px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.checkout_form .details .section{
+  margin-bottom: 15px;
+}
+
+.checkout_form .details .section input[type="text"]{
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #dddddd;
+}
+
+.checkout_form .details .section input[type="text"]:focus{
+  border: 2px solid #e85c4d;
+}
+
+.checkout_form .details .section.last_section{
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkout_form .details .section.last_section .item{
+  width: 48%;
+}
+
+.checkout_form .details .btn{
+  background: #e85c4d;
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.checkout_form .details .btn a{
+  color: #fff;
+  letter-spacing: 5px;
+  display: block;
+}
+
+#show {
+  background: #e85c4d;
+  border: none;
+}
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#myBtn {
+	background-color: #e85c4d;
+	border: none;
+	color: white;
+}
+#show {
+ 	background: #e85c4d;
+  	padding: 10px;
+  	border-radius: 15px;
+  	text-align: center;
+  	margin-top: 25px;
+}
+
+header {
+	text-align: left;
+}
+#check {
+	font-size: 50px;
+}
+
+img {
+  padding-right: 25px;
+}

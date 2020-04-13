@@ -1,0 +1,173 @@
+body {
+	margin: none;
+}
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'montserrat';
+	padding-top: 30px;
+	color: white;
+}
+.containter img {
+	float: left;
+	margin:none;
+}
+
+.container h4 {
+	text-align: left;
+	margin: none;
+	background-color: skyblue;
+	width: 160px;
+	font-size: 20px;
+}
+
+.container img {
+	float: left;
+	width: 325px;
+	height: 140px;
+	margin: 50px;
+}
+
+span {
+	align-items: right;
+}
+
+.container {
+	display: flex;
+	background: white;
+	margin-bottom: 20px;
+	opacity: 0.9;
+}
+
+.nice-number {
+	position: absolute;
+	transform: translate(-50%,-50%);
+}
+
+.nice-number input {
+	border: none;
+	outline: none;
+	padding: 5px;
+	border-radius: 5px;
+	margin: 0 5px !important;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.5);
+}
+
+.nice-number input:hover,
+.nice-number input:focus 
+{
+ 	background: skyblue;
+ 	color: white;
+}
+
+.style {
+	background-image: url('background.jpg')no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: stretch;
+}
+.text-uppercase {
+	color: white;
+}
+.text-uppercase h5 {
+	color: white;
+}
+i {
+	color: black;
+}
+.container-fluid {
+	width: 100%;
+	height: auto;
+	margin: auto;
+	background: #272727;
+	padding: 5px 0px;
+	margin-bottom: 0px;
+	opacity: 0.9;
+}
+
+.footer-social-icons {
+	width: 100%
+	height: auto;
+	margin: auto;
+	text-align: center;
+	padding-right: 5px;
+}
+
+.footer-social-icons ul {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	padding-right: 5px;
+}
+
+.footer-social-icons ul li {
+	display: inline-block;
+	width: 50px
+	height: 50px;
+	margin: 0px 10px;
+	border-radius: 100%
+	background: #32CD32;
+	padding-right: 5px;
+}
+
+.footer-social-icons ul li a {
+	color: #272727
+	font-size: 25px;
+	padding-right: 5px;
+}
+
+.footer-social-icons ul li a i {
+	line-height: 50px;
+	padding-right: 5px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 150%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #f40083;
+  color: white;
+}
+
+.footer-social-icons p {
+	text-align: center;
+	color: white;	
+	margin-bottom: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+@viewport {
+    zoom: 1.0;
+    width: extend-to-zoom;
+}
+
+@ms-viewport {
+    width: extend-to-zoom;
+    zoom: 1.0;
+}
